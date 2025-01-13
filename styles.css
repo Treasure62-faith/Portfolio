@@ -26,6 +26,23 @@ header{
     display: flex;
 }
 
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .Top {
+                  /* border: 2px solid red; */
+                  width: 80rem;
+           }
+        }
+
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .Top >img{
+                  /* border: 2px solid red; */
+                  width: 30px;
+                  height: 7vh;
+           }
+        }
+
 .Top-right{
     /* border: 2px solid white; */
     width: 1000px;
@@ -37,10 +54,29 @@ header{
     gap: 3rem;
 }
 
-.Top-item{
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .Top-right{
+                  /* border: 2px solid red; */
+                  width: 18.5rem;
+                  margin-left: 0.6rem;
+                  margin-top: 1.5rem;
+                  align-items: center;
+                  gap: 1rem;
+           }
+        }
+
+ .Top-item{
     display: flex;
-    gap: 3rem;
+    /* gap: 3rem; */
 }
+
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .Top-item{
+                  gap: 0.09rem;
+           }
+        }
 
 .Top-item > a{
     text-decoration: none;
@@ -51,6 +87,16 @@ header{
     font-weight: 450;
 }
 
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .Top-item >a{
+                  /* border: 2px solid red; */
+                  margin-left: 0.3rem;
+                  font-size: 11.5px;
+                  font-weight: 540;
+           }
+        }
+
 .Top-item > a:hover{
     color: white;
 }
@@ -59,20 +105,42 @@ header{
     /* border: 2px solid red; */
     background-color:  #34353a;
     margin-bottom: 1rem;
-    box-shadow: 0 10px 12px rgba(25, 25, 25, .2);
-    /* box-shadow: .1rem .4rem 20px rgb(32, 31, 31); */
+    /* box-shadow: 0 10px 12px rgba(25, 25, 25, .2); */
+    box-shadow: .1rem .4rem 10px rgb(32, 31, 31);
 }
 
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .banner{
+                  /* border: 2px solid red; */
+           }
+        }
 .banner-container{
     display: flex;
     /* border: 2px solid blue */
 }
 
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .banner-container{
+                  /* border: 2px solid red; */
+                  display: flex;
+           }
+        }
+
 .banner-content{
     /* border: 2px solid green; */
     width: 27.7rem;
-    margin-block: 10rem;
+    margin-block: 3rem;
 }
+
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .banner-content{
+                  /* border: 2px solid red; */
+                  width: 9.5rem;
+           }
+        }
 
 .banner-content >h1{
     color: white;
@@ -80,10 +148,29 @@ header{
     margin-top: 4rem;
 }
 
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .banner-content >h1{
+                  /* border: 2px solid blue; */
+                  font-size: 2rem;
+                  width: 9.5rem;
+                  margin-top: 1.5rem;
+           }
+        }
+
 .banner-content >h1 >span{
     color: #ffc86b;
     font-size: 3.5rem;
 }
+
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .banner-content >h1 >span{
+                  /* border: 2px solid blue; */
+                  font-size: 2.8rem;
+                  color: #ffc86b;
+           }
+        }
 
 .banner-content >p{
     color: white;
@@ -92,6 +179,15 @@ header{
     width: 15rem;
     margin-block: 1rem;
 }
+
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .banner-content >p{
+                  /* border: 2px solid rgb(221, 0, 255); */
+                  font-size: 1.5rem;
+                  width: 9.5rem;
+           }
+        }
 
 .banner-content > button{
     padding: 1rem 3rem;
@@ -103,11 +199,29 @@ header{
     margin-block: 1.5rem;
 }
 
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .banner-content >button{
+                  /* border: 4px solid rgb(255, 196, 0); */
+                  padding: 1rem 2rem;
+                  margin-block: 1rem;
+           }
+        }
+
 .banner-image{
     /* border: 2px solid red; */
     width: 30rem;
     margin-left: 5rem;
 }
+
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .banner-image{
+                  /* border: 2px solid rgb(255, 196, 0); */
+                  width: 11.5rem;
+                  margin-left: 0.2rem;
+           }
+        }
 
 .banner-image >img{
     /* border: 2px solid gold; */
@@ -124,6 +238,17 @@ header{
     /* margin-left: 2rem; */
 }
 
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .banner-image >img{
+                  /* border: 2px solid rgb(255, 196, 0); */
+                  border-left: 5px solid #ffb73a;
+                  border-right: 5px solid #ffb73a;
+                  width: 11.3rem;
+                  height: 50vh;
+                  margin-top: 2.5rem;
+           }
+        }
 
 .AMP{
     /* border: 2px solid red; */
@@ -147,9 +272,18 @@ header{
     margin-block: 2rem;
 }
 
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .aboutMe >p{
+                  /* border: 2px solid rgb(255, 196, 0); */
+                  font-size: 1.4rem;
+                  width: 21.2rem;
+           }
+        }
+
 .aboutMe >p >span{
     color: #ffc86b;
-}
+}   
 
 .Skills{
     /* border: 2px solid red; */
@@ -162,11 +296,28 @@ header{
     gap: 1.5rem;
 }
 
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .Skills-box{
+                  /* border: 2px solid green; */
+                  display:block;
+           }
+        }
+
 .Skills-top >h1{
     color: white;
     font-size: 3.5rem;
     margin-left: 25rem;
 }
+
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .Skills-top >h1{
+                  /* border: 2px solid green; */
+                  width: 15rem;
+                  margin-left: 3.5rem;
+           }
+        }
 
 .mySkills-One{
     /* border: 2px solid red; */
@@ -175,6 +326,14 @@ header{
     width: 18rem;
     height: 40vh;
 }
+
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .mySkills-One{
+                  margin-left: 2rem;
+                  margin-block: 1rem;
+           }
+        }
 
 .mySkills-One:hover{
     background-color: #ffc86b;
@@ -200,6 +359,13 @@ header{
     height: 40vh;
 }
 
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .mySkills-Two{
+                  margin-left: 2rem;
+           }
+        }
+
 .mySkills-Two:hover{
     background-color: #ffa200;
     cursor: pointer;
@@ -223,6 +389,14 @@ header{
     width: 18rem;
     height: 40vh;
 }
+
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .mySkills-Three{
+                  margin-left: 2rem;
+                  margin-block: 1rem;
+           }
+        }
 
 .mySkills-Three:hover{
     background-color: #ffc86b;
@@ -248,6 +422,13 @@ header{
     height: 40vh;
 }
 
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .mySkills-Four{
+                  margin-left: 2rem;
+           }
+        }
+
 .mySkills-Four:hover{
     background-color: #ffa200;
     cursor: pointer;
@@ -271,6 +452,14 @@ header{
     width: 18rem;
     height: 40vh;
 }
+
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .mySkills-Five{
+                  margin-left: 2rem;
+                  margin-block: 1rem;
+           }
+        }
 
 .mySkills-Five:hover{
     background-color: #ffc86b;
@@ -296,6 +485,14 @@ header{
     height: 40vh;
 }
 
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .mySkills-Six{
+                  margin-left: 2rem;
+                  /* margin-block: 1rem; */
+           }
+        }
+
 .mySkills-Six:hover{
     background-color: #ffa200;
     cursor: pointer;
@@ -320,6 +517,14 @@ header{
     height: 40vh;
 }
 
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .mySkills-Seven{
+                  margin-left: 2rem;
+                  margin-block: 1rem;
+           }
+        }
+
 .mySkills-Seven:hover{
     background-color: #ffc86b;
     cursor: pointer;
@@ -343,6 +548,14 @@ header{
     width: 18rem;
     height: 40vh;
 }
+
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .mySkills-Eight{
+                  margin-left: 2rem;
+                  margin-block: 1rem;
+           }
+        }
 
 .mySkills-Eight:hover{
     background-color: #ffa200;
@@ -377,9 +590,18 @@ header{
     font-size: 3rem;
 }
 
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .learned >h1{
+                  /* border: 2px solid blue; */
+                  width: 20rem;
+                  margin-left: 1.2rem;
+           }
+        }
+
 .learnedFrom-content{
     /* border: 2px solid red; */
-    margin-block: 2rem;
+    margin-block: 1.2rem;
 }
 
 .learnedFrom-content >h2{
@@ -388,11 +610,28 @@ header{
     color: white;
 }
 
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .learnedFrom-content >h2{
+                  /* border: 2px solid blue; */
+                  width: 22rem;
+                  font-size: 36px; 
+           }
+        }
+
 .learnedFrom-content >p{
     color: white;
     margin-block: 1rem;
     font-size: 23px;
 }
+
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .learnedFrom-content >p{
+                  font-size: 17px;
+                  margin-block: 0.5rem; 
+           }
+        }
 
 .learnedFrom-content >p >span{
     color: #ffc86b;
@@ -409,11 +648,26 @@ header{
     color: white;
 }
 
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .thoughtBy-content >h2{
+                  margin-block: 0.1rem; 
+           }
+        }
+
 .thoughtBy-content >p{
     color: white;
     margin-block: 1rem;
     font-size: 23px;
 }
+
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .thoughtBy-content >p{
+                  margin-block: 0.1rem; 
+                  font-size: 17px;
+           }
+        }
 
 .thoughtBy-content >p >span{
     color: #ffc86b;
@@ -433,6 +687,13 @@ header{
     font-size: 50px;
 }
 
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .testimonials-container >h1{
+                  margin-left: 3rem;
+           }
+        }
+
 .testimonial-image{
     /* border: 2px solid rebeccapurple; */
     display: flex;
@@ -444,11 +705,29 @@ header{
     margin-left: 8rem;
 }
 
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .testimonial-content{
+                    /* border: 2px solid red; */
+                    width: 9.5rem;
+                  margin-left: 0.2rem;
+           }
+        }
+
 .testimonial-content >p{
     color: white;
     font-size: 25px;
     width: 40rem;
 }
+
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .testimonial-content >p{
+                    /* border: 2px solid red; */
+                    font-size: 17px;
+                    width: 9.5rem;
+           }
+        }
 
 .testimonial-content >p span{
     color: #ffc86b;
@@ -461,6 +740,16 @@ header{
     font-size: 30px;
 }
 
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .testimonial-content >h2{
+                    /* border: 2px solid red; */
+                    font-size: 17px;
+                    margin-left: 0.5rem;
+                    width: 8rem;
+           }
+        }
+
 .testimonial-content >h4{
     color: white;
     margin-left: 4rem;
@@ -470,6 +759,16 @@ header{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .testimonial-content >h4{
+                    /* border: 2px solid red; */
+                    font-size: 17px;
+                    margin-left: 0.5rem;
+                    width: 8rem;
+           }
+        }
+
 .images{
     /* border-: 3px solid gold; */
     border-top: 5px solid gold;
@@ -478,7 +777,7 @@ header{
     background-image: url(./image/67817dce04246.png);
     background-position: center;
     background-size: cover;
-    width: 20rem;
+    width: 25rem;
     height: 20rem;
     border-top-left-radius: 3rem;
     border-bottom-left-radius: 3rem;
@@ -501,19 +800,53 @@ header{
     font-size: 45px;
 }
 
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .head >h1{
+                    /* border: 2px solid red; */
+                    font-size: 37px;
+                    margin-left: 4rem;
+                    width: 13rem;
+           }
+        }
+
 .contact-contant{
     /* border: 2px solid blue; */
     display: flex;
+    margin-left: 15rem;
+    width: 50rem;
     gap: 8rem;
     margin-top: 8rem;
 }
 
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .contact-contant{
+                    margin-top: 5rem;
+                    margin-block: 2rem;
+                    margin-left: 0.5rem;
+                    width: 21rem;
+                    display: block;
+           }
+        }
+
 .email{
-    /* border: 2px solid gold; */
+    border: 2px solid #ffc86b;
     background-color: #27282c;
     width: 20rem;
     height: 10vh;
 }
+
+
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .email{
+                    margin-left: 0.6rem;
+                    margin-top: 2rem;
+                    width: 20rem;
+                    margin-block: 2rem;
+           }
+        }
 
 .email >h2{
     color: white;
@@ -522,13 +855,30 @@ header{
     margin-left: 0.8rem;
 }
 
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .email >h2{
+                    color: white;
+                    margin-top: 1.5rem;
+                    margin-left: 0.4rem;
+        }
+    }
+
 .phone{
-    /* border: 2px solid gold; */
+    border: 2px solid #ffc86b;
     background-color: #27282c;
     width: 20rem;
     height: 10vh;
 }
 
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .phone{
+                    margin-left: 0.6rem;
+                    width: 20rem;
+           }
+        }
+    
 .phone >h2{
     color: white;
     /* border: 2px solid red; */
@@ -536,11 +886,27 @@ header{
     margin-left: 0.8rem;
 }
 
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .phone >h2{
+                    color: white;
+                    margin-top: 1.5rem;
+                    margin-left: 0.4rem;
+        }
+    }
+
 .thanks-container{
     /* border: 2px solid red; */
     background-color: #31333b;
     height: 40vh;
 }
+
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .thanks-content >{
+                    height: 10vh;
+        }
+    }
 
 .thanks-content >h1{
     /* border: 2px solid blue; */
@@ -549,3 +915,12 @@ header{
     color: #ffc86b;
     margin: 6rem auto;
 }
+
+              /* Responsiveness code */
+              @media(min-width: 162px) and (max-width: 460px){
+                .thanks-content >h1{
+                    width: 21rem;
+                    font-size: 33px;
+                    margin-top: 6rem;
+        }
+    }
