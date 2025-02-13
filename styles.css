@@ -109,13 +109,6 @@ header{
     /* box-shadow: 0 10px 12px rgba(25, 25, 25, .2); */
     box-shadow: .1rem .4rem 10px rgb(32, 31, 31);
 }
-
-              /* Responsiveness code */
-              @media(min-width: 162px) and (max-width: 460px){
-                .banner{
-                  /* border: 2px solid red; */
-           }
-        }
 .banner-container{
     display: flex;
     /* border: 2px solid blue */
@@ -223,7 +216,7 @@ header{
                   margin-block: 1rem;
            }
         }
-}
+
 
               /* Responsiveness code */
               @media(min-width: 162px) and (max-width: 460px){
@@ -279,10 +272,6 @@ header{
 .AMP{
     /* border: 2px solid red; */
     background-color: #31333b;
-}
-
-.About{
-    /* border: 2px solid red; */
 }
 
 .aboutMe >h1{
@@ -680,11 +669,6 @@ header{
 .learnedFrom-content >p >span{
     color: #ffc86b;
     opacity: 30;
-}
-
-.thoughtBy-content{
-    /* border: 2px solid red; */
-    /* margin-block: 1rem; */
 }
 
 .thoughtBy-content >h2{
